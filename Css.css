@@ -20,11 +20,10 @@ body {
 
 
   .balls {
-    top: -500px;
-    left: -300px;
+    background-image: url(bg-pattern-top.svg);
+    background-position: top 50vh left 48vw;
     position: absolute;
     
-    color: linear-gradient(hsl(229, 23%, 23%) 20%, hsl(227, 10%, 46%) 80%);
 
   }
 
@@ -43,8 +42,8 @@ body {
   }
 
   .ballstwo {
-    bottom: -500px;
-    right: -300px;
+    background-image: url(bg-pattern-bottom.svg);
+    background-position: bottom 40vh right 48vw;
     position: absolute;
 
   }
@@ -157,33 +156,33 @@ body {
     }
 
     .balls {
-      bottom: 50%;
-      position: absolute;
-      overflow: hidden;
-      color: linear-gradient(hsl(229, 23%, 23%) 20%, hsl(227, 10%, 46%) 80%);
+    background-image: url(bg-pattern-top.svg);
+    background-position: top 50vh left 48vw;
+    position: absolute;
+    
 
-    }
+  }
 
-    .top {
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-      width: 350px;
-      height: 130px;
-      background-size: cover;
-      padding-top: 0;
-      background-image: url(bg-pattern-card.svg);
-      backgorund-repat: repeat;
-      background-position: center;
-      background-size: 400px;
+  .top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 350px;
+    height: 130px;
+    background-size: cover;
+    padding-top: 0;
+    background-image: url(bg-pattern-card.svg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 400px;
 
-    }
+  }
 
-    .ballstwo {
-      top: 50%;
-      position: absolute;
-      overflow: hidden;
-      color: linear-gradient(hsl(229, 63%, 47%) 20%, hsl(226, 93%, 5%) 80%);
-    }
+  .ballstwo {
+    background-image: url(bg-pattern-bottom.svg);
+    background-position: bottom 40vh right 48vw;
+    position: absolute;
+
+  }
 
     header {
       font-size: 22px;
